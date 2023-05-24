@@ -3,7 +3,13 @@
 #include "..\vendor\HotKey_21b.au3"
 #include "..\vendor\vkConstants.au3"
 
-Global $g_sConfigFile = @ScriptDir & "\config.ini"
+Global $g_sConfigFile
+If @Compiled Then
+	$g_sConfigFile = @LocalAppDataDir & "\RectangleWin\config.ini"
+Else
+	$g_sConfigFile = @ScriptDir & "\config.ini"
+EndIf
+
 
 Global $g_iHotKeyLeftHalf
 Global $g_iHotKeyRightHalf

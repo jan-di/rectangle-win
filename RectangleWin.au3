@@ -1,3 +1,16 @@
+#AutoIt3Wrapper_Res_Description=RectangleWin
+#AutoIt3Wrapper_Res_ProductName=RectangleWin
+#AutoIt3Wrapper_Res_ProductVersion=1.0.0
+#AutoIt3Wrapper_Res_Fileversion=1.0.0.5
+#AutoIt3Wrapper_Res_Fileversion_AutoIncrement=Y
+#AutoIt3Wrapper_Res_Fileversion_First_Increment=Y
+#AutoIt3Wrapper_Res_LegalCopyright=© 2023 Jan Dittrich
+#AutoIt3Wrapper_OutFile=RectangleWin32.exe
+#AutoIt3Wrapper_OutFile_X64=RectangleWin64.exe
+#AutoIt3Wrapper_UseUpx=N
+#AutoIt3Wrapper_Compile_both=Y
+#AutoIt3Wrapper_res_requestedExecutionLevel=asInvoker
+
 #include-once
 
 #include "vendor/vkConstants.au3"
