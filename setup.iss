@@ -27,6 +27,7 @@ Name: "{app}"
 [Files]
 Source: "RectangleWin32.exe"; DestDir: "{app}"; DestName: "RectangleWin.exe"; Flags: 32bit ignoreversion
 Source: "RectangleWin64.exe"; DestDir: "{app}"; DestName: "RectangleWin.exe"; Flags: 64bit ignoreversion
+Source: "resources\*"; DestDir: "{app}\resources"; Flags: ignoreversion recursesubdirs
 
 [Icons] 
 Name: "{userstartup}\RectangleWin"; Filename: "{app}\RectangleWin.exe"; Tasks: AutoStartIcon
